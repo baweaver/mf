@@ -1,6 +1,6 @@
 # Mf
 
-Math functions. More of an experiment for now with syntactic sugar operators
+Modifier functions. More of an experiment for now with syntactic sugar operators
 after an idea occurred:
 
 Can Ruby define `self` infix operators and `curry` / `proc`ify them?
@@ -70,6 +70,9 @@ numbers.map(&Mf | 3)
 
 numbers.map(&Mf & 3)
 #=> [1, 2, 3, 0, 1]
+
+%w(foo bar baz).map(&Mf[0..1])
+=> ["fo", "ba", "ba"]
 ```
 
 ## Installation
