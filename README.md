@@ -12,6 +12,8 @@ Turns out the answer is yes, yes it can:
 # => [6, 7, 8, 9, 10]
 ```
 
+(I should probably put down the Scala book now)
+
 ## Usage
 
 Just a quick rundown of the methods for now
